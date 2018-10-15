@@ -9,7 +9,7 @@ import guru.springframework.didemo.services.GreetingService;
 public class ConstructorInjectedController {
 	public GreetingService greetingService;
 	
-	@Autowired
+	@Autowired 	
 	public ConstructorInjectedController(GreetingService greetingService){
 		this.greetingService = greetingService;
 	}
